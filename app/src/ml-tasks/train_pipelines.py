@@ -1,4 +1,5 @@
 import os
+import time
 from dotenv import load_dotenv
 
 from pathlib import Path
@@ -11,6 +12,7 @@ load_dotenv()
 DATA_PATH = os.getenv("DATA_PATH")
 MODEL_PATH = os.getenv("MODEL_PATH")
 METRICS_PATH = os.getenv("METRICS_PATH")
+start_time = time.time()
 #Prepare
 repo_path = Path(str(Path(__file__).parent.parent.parent) + "/" + DATA_PATH)
 print(repo_path)
@@ -22,3 +24,5 @@ train.start_training(repo_path, model_path)
 #Evaluate
 metrics_path = Path(str(Path(__file__).parent.parent.parent) + "/" + METRICS_PATH)
 evaluate.start_evaluation(repo_path, model_path, metrics_path)
+end_time = time.time()
+print("The execution time is %5.8f ms" % (end_time - start_time))
