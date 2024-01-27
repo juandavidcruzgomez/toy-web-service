@@ -3,5 +3,4 @@
 *.joblib
 *.pyc
 *.csv
-accuracy.json
 .DS_Store*
