@@ -1,4 +1,7 @@
-*__pycache__/*
+**/__pycache__/*
 .vscode/
 *.joblib
 app/data/raw/
+*.pyc
+*.csv
+accuracy.json
