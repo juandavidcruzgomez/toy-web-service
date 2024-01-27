@@ -1,3 +1,8 @@
 /config.local
 /tmp
 /cache
+<<<<<<< HEAD
+=======
+/tmp
+/cache
+>>>>>>> 82685e8 (dvc?)
