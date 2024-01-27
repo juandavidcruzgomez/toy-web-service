@@ -1,0 +1,4 @@
+[core]
+    remote = remote_storage
+['remote "remote_storage"']
+    url = /Users/juandavidcruzgomez/dvc-demo/remote_data_repo

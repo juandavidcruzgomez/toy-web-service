@@ -1,7 +1,7 @@
 **/__pycache__/*
 .vscode/
 *.joblib
-app/data/raw/
 *.pyc
 *.csv
 accuracy.json
+.DS_Store*
