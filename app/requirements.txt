@@ -5,3 +5,5 @@ scikit-image
 pandas 
 numpy
 python-dotenv
+jinja2
+python-multipart

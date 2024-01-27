@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Form</title>
+</head>
+<body>
+
+    <div>
+        <p>This is a simple web application used to test a simple classification task</p>
+    </div>
+    {% if result.done == False %}
+    <div>
+        <form method="post" action="uploadfile" enctype="multipart/form-data">
+            <label for="ufile">Select a file to classify</label>
+            <input type="file" id="ufile" name="ufile" accept="image/png, image/gif, image/jpeg">
+            <input type="submit">
+        </form>
+    </div>
+    {% else %}
+    <div>
+        <p>The image seems to be a <strong>{{result.classification}}</strong></p>
+        <p>
+            <input type="button" onclick="location.href='/'" value="OK, take me back">
+        </p>
+    </div>
+    {% endif %}
+
+</body>
+</html>
