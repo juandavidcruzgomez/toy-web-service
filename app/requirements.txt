@@ -2,7 +2,6 @@ fastapi
 uvicorn[standard]
 scikit-learn 
 scikit-image 
-pandas 
 numpy
 python-dotenv
 jinja2
