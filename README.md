@@ -3,9 +3,6 @@ This is a toy example of a web service written in python just for introducing so
 
 This example uses the [Imaginette](https://github.com/fastai/imagenette) dataset.
 
-## Getting started
-??
-
 ## Download the data
 You can execute the `download-data` script:
 ```bash
