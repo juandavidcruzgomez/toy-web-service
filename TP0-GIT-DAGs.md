@@ -12,7 +12,7 @@ Tu dois avoir un message comme celui-ci : `git version 2.39.2 (Apple Git-143)` (
 C'est la première opération à faire pour initialiser un repository en local. Cette commande va récupérer l'information (code, configurations et autres fichier de texte) et va créer les liens vers le repository central.
 Pour démarrer le processus il faut tout simplement exécuter :
 ```bash
-git clone git@github.com:juandavidcruzgomez/dag-demo.git
+git clone https://github.com/juandavidcruzgomez/dag-demo.git
 ```
 Ceci va créer un dossier `dag-demo` avec trois fichiers :
 - docker-compose.yml
